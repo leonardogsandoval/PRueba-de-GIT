@@ -48,6 +48,7 @@ body
   color: white;
   float:left;
   width: 20%
+  margin-top: 10px;
 
 }
 #sidenav a{
@@ -78,10 +79,17 @@ padding: 8px;
     margin: 0;
     padding: 1em;
 }
-#container h1
+
+#section 
 {
     font-size: 30px;
+    margin-top: 10px;
 }
+
+
+
+
+
 #post
 {
     padding: 1em;
