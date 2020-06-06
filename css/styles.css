@@ -47,8 +47,8 @@ body
   background-color:gray;
   color: white;
   float:left;
-  width: 20%
-  margin-top: 10px;
+  width: 20%;
+  margin-top: 7px;
 
 }
 #sidenav a{
@@ -68,6 +68,7 @@ padding: 8px;
     padding: 10px;
     text-align: left;
     overflow: hidden;
+    margin-top: 7px;
     
 }
 #footer
@@ -83,7 +84,7 @@ padding: 8px;
 #section 
 {
     font-size: 30px;
-    margin-top: 10px;
+    
 }
 
 
