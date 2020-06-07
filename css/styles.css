@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
 body
 {
     color: #333;
@@ -10,25 +16,64 @@ body
 
 #cabecera
 {
+
     overflow: hidden;
-    background: lightblue;
+    background: powderblue;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.8em;
 }
+
 #cabecera a
 {
     text-decoration: none;
     padding: 10px 15px;
     font-size: 17px;
     color: #f2f2f2;
-
 }
+
 #cabecera a:hover {
   background-color: #ddd;
   color: black;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+#sidenav {
+  background-color:gray;
+  color: white;
+  float:left;
+  width: 20%;
+  margin-top: 7px;
+
+}
+#sidenav a{
+    text-decoration: none;
+
+}
+#menuitem1, #menuitem2, #menuitem3 {
+padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+#main
+{
+    width: 80%;
+    float: left;
+    padding: 10px;
+    text-align: left;
+    border: 0px solid #DDD;
+    margin: 0 auto;
+    overflow: hidden;
+
+    
 }
 #footer
 {
@@ -38,29 +83,28 @@ body
     font-weight: bold;
     margin: 0;
     padding: 1em;
-}
-#cabecera #tagline
-{
-    padding: 0 0 0 1em;
-    font-weight: normal;
-    font-size: 0.8em;
+
 }
 
-#container
-{
-    width: 70%;
-    padding: 0;
-    text-align: left;
-    border: 0px solid #DDD;
-    margin: 0 auto;
-    display:;
-}
-
-#container h1
+#section 
 {
     font-size: 30px;
+    
 }
+
+
+
+
+
 #post
 {
     padding: 1em;
 }
+
+@media only screen and (max-width: 500px){
+  /* For mobile phones: */
+  #sidenav, #main  {
+    width: 100%;
+  }
+}
+</
